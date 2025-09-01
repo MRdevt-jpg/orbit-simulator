@@ -51,10 +51,14 @@ def plot_orbit(points_orbit: list[tuple[float, float]],
     plt.legend()
     plt.grid(True)
 
+    import os
     if save_path:
+        os.makedirs(os.path.dirname(save_path), exist_ok=True)
         plt.savefig(save_path, dpi=160, bbox_inches="tight")
+        print(f"[DEBUG] Gespeichert unter: {os.path.abspath(save_path)}")
     else:
         plt.show()
+
     plt.close()
 
 def plot_orbit_with_transfer(points_orbit: list[tuple[float, float]],
@@ -82,8 +86,13 @@ def plot_orbit_with_transfer(points_orbit: list[tuple[float, float]],
     plt.legend()
     plt.grid(True)
 
+    import os
+
     if save_path:
+        os.makedirs(os.path.dirname(save_path), exist_ok=True)
         plt.savefig(save_path, dpi=160, bbox_inches="tight")
+        print(f"[DEBUG] Gespeichert unter: {os.path.abspath(save_path)}")
     else:
         plt.show()
+
     plt.close()

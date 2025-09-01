@@ -1,0 +1,30 @@
+Orbit-Simulator (geschrieben in Python)
+
+Dieses Projekt simuliert und visualisiert Umlaufbahnen um die Erde.  
+Es ist als Lern- und Demonstrationsprojekt gedacht und zeigt die Anwendung grundlegender Himmelsmechanik in Python.
+Ich bin kein Orbit Analyst und habe nur den zugriff auf Informationen wie jeder andere auch ich lerne auch noch und bitte daher 
+um Verständnis falls irgendwelche Fehler auftauchen sollten.
+
+
+Features
+- Berechnung von Kreis- und Ellipsenbahnen  
+- Ausgabe von Orbit-Reports (inkl. Perigäum, Apogäum, Umlaufzeit)  
+- Visualisierung von Umlaufbahnen mit matplotlib 
+- Berechnung und Plotten einer Hohmann-Transferellipse  
+- Ausgabe von Δv-Reports für Transfers (Δv1, Δv2, Δv_total, Transferzeit)  
+- Reports und Plots werden automatisch im Ordner `data/` gespeichert  
+
+
+
+Beispielgrafik
+Ein Beispiel für eine Visualisierung (400 km Kreisbahn + Erde + Hohmann-Transfer):
+
+![Beispielorbit](images/orbit_transfer_from400km_to37546km_20250901_102147.png)
+
+
+Installation
+Projekt klonen oder herunterladen:
+
+bash
+git clone https://github.com/MRdevt-jpg/orbit-simulator.git
+cd orbit-simulator
