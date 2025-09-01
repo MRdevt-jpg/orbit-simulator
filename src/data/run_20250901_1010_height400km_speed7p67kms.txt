@@ -1,8 +1,0 @@
-=== Orbit-Report ===
-Eingabe: Höhe 400 km, v 7.67 km/s
-Typ: circle
-Referenz: v_kreis 7.67 km/s, v_flucht 10.85 km/s
-a: 6766 km
-Perigäum: 391 km   Apogäum: 400 km
-Umlaufzeit: 92.3 min
-Annahmen: Zentralgravitation; keine Atmosphäre/J2
