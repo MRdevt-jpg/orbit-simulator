@@ -94,5 +94,4 @@ def plot_orbit_with_transfer(points_orbit: list[tuple[float, float]],
         print(f"[DEBUG] Gespeichert unter: {os.path.abspath(save_path)}")
     else:
         plt.show()
-
     plt.close()
