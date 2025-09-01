@@ -17,9 +17,7 @@ Features
 
 
 Beispielgrafik
-Ein Beispiel für eine Visualisierung (400 km Kreisbahn + Erde + Hohmann-Transfer):
-
-![Beispielorbit](src/data/orbit_transfer_from400km_to35746km_20250901_102035.png)
+Ein Beispiel für eine Visualisierung (400 km Kreisbahn + Erde + Hohmann-Transfer) finden sie unter src/data/.
 
 
 Installation
